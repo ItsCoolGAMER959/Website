@@ -6,6 +6,10 @@
   font-family:'Bungee Spice', cursive;
   color:#FF7A59;
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
 
     @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
     </style>        
@@ -19,6 +23,6 @@
                 <input name="sitesearch" type="hidden">
                 <input autocomplete="on" class="form-control search" name="q" placeholder="Search Google" required="required"  type="text">
                 <button class="button" type="submit"><span class="material-symbols-outlined">search</span></button>
-            </form>
+             </form>
         </body>
     </html>
