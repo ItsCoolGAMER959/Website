@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Oxygen&family=Silkscreen&display=swap');
+body {
+  background-color: #16161f;
+}
+button {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  background-color: #4d0000;
+  border-radius:4px;
+  border: white;
+  border-width: 5px;
+}
+.h2 {
+  color: red;
+  right: 50px;
+  top: 1px;
+  font-family: 'Bungee Shade', sans-serif;
+  position:absolute;
+  font-size: 50px;
+}
